@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Certificates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-links">
+                <h1 class="nav-tagss border">Web Developer</h1>
+                <div class="nav-tags"><a href="index.html">Home</a></div>
+                <div class="nav-tags"><a href="about.html">About</a></div>
+                <div class="nav-tags"><a href="education.html">Education</a></div>
+                <div class="nav-tags"><a href="projects.html">Projects</a></div>
+                <div class="nav-tagse"><a href="certificates.html">Certificates</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container page-content">
+        <h1 class="page-title">My Certificates</h1>
+        
+        <div class="certificates-grid">
+            <div class="certificate-card" onclick="openModal('Oracle AI Vector Search Certificate')">
+                <div class="certificate-preview">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="certificate-info">
+                    <h3>Oracle AI Vector Search</h3>
+                    <p>Gained knowledge of vector databases and AI-driven search techniques.</p>
+                    <p class="certificate-date">Completed: 2023</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card" onclick="openModal('IoT NPTEL Certificate')">
+                <div class="certificate-preview">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <div class="certificate-info">
+                    <h3>IoT (NPTEL)</h3>
+                    <p>Completed certification in Internet of Things, covering IoT architecture, applications, and real-world use cases.</p>
+                    <p class="certificate-date">Completed: 2023</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card" onclick="openModal('Python Programming Certificate')">
+                <div class="certificate-preview">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="certificate-info">
+                    <h3>Python Programming</h3>
+                    <p>Completed comprehensive Python programming course covering fundamentals to advanced concepts.</p>
+                    <p class="certificate-date">Completed: 2022</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card" onclick="openModal('Web Development Certificate')">
+                <div class="certificate-preview">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="certificate-info">
+                    <h3>Web Development Fundamentals</h3>
+                    <p>Completed course on HTML, CSS, and JavaScript for modern web development.</p>
+                    <p class="certificate-date">Completed: 2022</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="certificates-stats">
+            <div class="stat-card">
+                <h3>4+</h3>
+                <p>Certificates Completed</p>
+            </div>
+            <div class="stat-card">
+                <h3>2</h3>
+                <p>AI/ML Certificates</p>
+            </div>
+            <div class="stat-card">
+                <h3>2</h3>
+                <p>Web Development Certificates</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Certificate Title</h2>
+            <div class="certificate-view">
+                <div class="certificate-image">
+                    <img id="modalImage" src="" alt="Certificate">
+                </div>
+                <div class="certificate-details">
+                    <h3>Certificate Details</h3>
+                    <p id="modalDescription">Certificate description will appear here.</p>
+                    <div class="certificate-actions">
+                        <button class="download-btn">Download Certificate</button>
+                        <button class="share-btn">Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Likitha Duuttuluru</h3>
+            <p>Building Digital Dreams with Code & Creativity</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/likitha-duutuluru/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/likitha1406" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/likki_chowdary14" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://wa.me/9676120940" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Likitha Duttuluru | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
